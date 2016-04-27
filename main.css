@@ -1,0 +1,38 @@
+body{
+  border: 1px solid;
+  height: 700px;
+}
+
+main {
+  background: url("imgs/abstact.png")no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  border: 1px solid white;
+  padding: 0.5%;
+  height: 690px;
+  width: 99%;
+}
+
+.DjVictoriousImg {
+ border: 1px solid white;
+ margin: 315px 700px;
+ position: absolute;
+ display: inline;
+ height: 200px;
+ width: 300px;
+}
+
+.DjVictoriousImg img {size: cover;}
+
+.transBandTp,
+.transBandBtm {background-color: gray; opacity: .3; height: 40px; padding:0;}
+.transBandTp {margin-top: 10px;}
+.transBandBtm {margin-top: 500px; height: 60px;}
+
+/*.transBand:nth-child(2) {height: 65px; width: 100%; margin-top: 46%; }*/
+
+
+/*body img{
+  position: static; opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+  /*height: 100%}*/
