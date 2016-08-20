@@ -1,0 +1,1 @@
+From here, I think my next move would be to start the JS pg and hide the middle section on pg load

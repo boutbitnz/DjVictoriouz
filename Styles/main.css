@@ -1,0 +1,46 @@
+* {box-sizing: border-box;}
+
+body{
+  border: 1px solid #D9D9D9;
+  /*height: 700px;*/
+}
+
+main {
+  /*background: url("imgs/abstact.png")no-repeat;*/
+  background-size: cover;
+  border: 1px solid white;
+  padding: 0.5%;
+  /*width: 99%;*/
+  /*height: 690px;*/
+}
+button {border: none; margin: 0 0 0 10%; font-family: fantasy; font-size: medium; background-color: turquoise; /*opacity: .5;*/}
+
+.DjVictoriousImg {
+ border: 1px solid white;
+ margin: 315px 700px;
+ position: absolute;
+ display: inline;
+ width: 300px;
+ height: 200px;
+ visibility: hidden;
+ /*display: none;*/
+}
+
+.DjVictoriousImg img {size: cover;}
+
+nav.transBandTp,
+.transBandMid,
+footer.transBandBtm {background-color: gray; opacity: .3; border-radius: 0; padding:0;}
+nav.transBandTp {margin-top: 1em; padding: .05em; height: 1.5em;}
+div.transBandMid {border-radius: 0.5em; margin-top: 5em; margin-right: 2em; margin-bottom: 0; margin-left: 40em; height: 20em;}
+footer.transBandBtm {margin-top: 15em; padding: .05em; height: 5em;}
+
+p {text-align: center; font-family: fantasy;}
+
+/*.transBand:nth-child(2) {height: 65px; width: 100%; margin-top: 46%; }*/
+
+
+/*body img{
+  position: static; opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+  /*height: 100%}*/

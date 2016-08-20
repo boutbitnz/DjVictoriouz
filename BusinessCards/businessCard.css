@@ -1,0 +1,39 @@
+.background {border: 1px dotted; width: 400px; height: 200px; background-color: black; border-radius: .3em;}
+.title {position: absolute; top: 80px; left: 10px; height: 60px; width: 215px;}
+.title h1 {font-family: fantasy; font-size: xx-large; font-weight: 100; margin-top: -10px; margin-left: 8px; color: white;}
+.title h2, h3 {font-family: fantasy; font-weight: 100; width: 123px; left: 42px; top: 17px; color: white;/* margin-top: -10px;*/}
+/*.title h3 {font-family: fantasy; font-weight: 100; width: 123px; left: 42px; top: 17px; margin-top: -10px;}
+*/.info {position: absolute; padding: .05px; left: 20px; background-color: black; top: 175px; height: 30px; width: 360px;}
+.snapShotImg {position: absolute; /*background-image: url("img/VicotoriuozSC.png");*/ top: 60px; left: 267px; height: 65px; width: 67px;}
+.snapShotImg img {width: 100%; height: 100%;}
+
+
+.twitter,
+.instagram,
+.soundCloud {
+	/*display: inline;*/
+	position: absolute;
+	margin-top: 2px;
+	height: 20px;
+	width: 80px;
+}
+
+.twitter,
+.instagram,
+.soundCloud {font-family: fantasy; font-size: xx-large; font-weight: 100; color: white;}
+
+.twitter {left: 5px;}
+.twitter h1 {color: blue;}
+.twitter h2 {color: white;}
+.instagram {left: 150px;}
+.instagram h1 {color: white;}
+.instagram h2 {color: white;}
+.soundCloud {left: 300px;}
+.soundCloud h1 {color: darkorange;}
+.soundCloud h2 {color: white;}
+
+
+.info h1, h2, h3 {position: absolute; display: inline;}
+h1 {font-size: x-small; top: -10px;}
+h2 {font-size: 8px;left: 15px;}
+h3 {font-size: 8px; top: 25px; left: 102px; }
