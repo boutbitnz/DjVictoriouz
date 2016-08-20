@@ -1,4 +1,4 @@
-.background {border: 1px dotted; width: 400px; height: 200px; background-color: black; border-radius: .3em;}
+.background {border: 1px dotted white; width: 400px; height: 200px; background-color: black; border-radius: .3em;}
 .title {position: absolute; top: 80px; left: 10px; height: 60px; width: 215px;}
 .title h1 {font-family: fantasy; font-size: xx-large; font-weight: 100; margin-top: -10px; margin-left: 8px; color: white;}
 .title h2, h3 {font-family: fantasy; font-weight: 100; width: 123px; left: 42px; top: 17px; color: white;/* margin-top: -10px;*/}
