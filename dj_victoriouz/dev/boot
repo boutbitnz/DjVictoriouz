@@ -1,0 +1,11 @@
+(function(System, SystemJS) {(function (require, exports, module, __filename, __dirname, global, GLOBAL, process) {"use strict";
+function renderPage(){require('/dev/renderPage')(true, require('/~/index.html'));}
+function boot(){
+  renderPage();
+  require('/dev/attatchUnload')(require.resolve('/~/index.html'), function(){location.reload()});
+  require('/~/index.js');
+  require('/dev/attatchUnload')(require.resolve('/~/index.js'), renderPage);
+}
+module.exports=require('/dev/loadExternalResources')([], require('/~/index.html')).then(boot, boot);
+}).apply(__cjsWrapper.exports, __cjsWrapper.args);
+})(System, System);
